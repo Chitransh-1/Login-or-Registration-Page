@@ -2,7 +2,6 @@ from tkinter import *
 import mysql.connector
 from tkinter import messagebox
 from mysql.connector import Error
-from datetime import datetime
 
 root = Tk()
 root.title("Create Database and Table")
