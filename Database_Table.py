@@ -62,7 +62,7 @@ def create_table():
             # First table creation query
             myquery1 = """
             CREATE TABLE IF NOT EXISTS users (
-                ID INT(100) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+                user_id INT(100) AUTO_INCREMENT PRIMARY KEY NOT NULL,
                 name VARCHAR(100),
                 email VARCHAR(100),
                 age INT(100),
